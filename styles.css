@@ -1,0 +1,81 @@
+.container {
+  max-width: 600px;
+  border: 1px solid #43d9be;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.btn {
+  background: #43d9be;
+  color: white;
+  outline: none !important;
+  box-shadow: none !important;
+  margin-right: 10px;
+}
+
+.btn i {
+  color: white;
+  font-size: 1.2em;
+  padding-top: 5px;
+}
+
+.btn:hover {
+  background: #23a991;
+  color: white;
+}
+
+.btn:focus {
+  background: #23a991;
+  color: white;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.time {
+  font-size: 0.7em;
+  color: #999;
+}
+
+.update-mssg {
+  text-align: center;
+  margin: 20px auto;
+}
+
+i {
+  float: right;
+  color: #999;
+  padding-top: 10px;
+  font-size: 0.8em;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+i.delete:hover {
+  color: black;
+}
+
+i.heart:hover {
+  color: red;
+}
+
+i.thumb:hover {
+  color: #3b5998;
+}
+
+i.red {
+  color: red;
+}
+
+i.blue {
+  color: #3b5998;
+}
+
+.redBorder {
+  border-left: 3px solid red;
+}
+
+.greyBorder {
+  border-left: 3px solid #666;
+}
