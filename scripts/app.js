@@ -7,29 +7,17 @@ const rooms = document.querySelector(".chat-rooms");
 
 //Like button
 chatlist.addEventListener("click", e => {
-  if (
-    e.target.classList.contains("heart") &&
-    !e.target.classList.contains("red")
-  ) {
-    e.target.classList.add("red");
-    e.target.parentElement.classList.add("redBorder");
-  } else {
-    e.target.classList.remove("red");
-    e.target.parentElement.classList.remove("redBorder");
+  if (e.target.classList.contains("heart")) {
+    e.target.classList.toggle("red");
+    e.target.parentElement.classList.toggle("redBorder");
   }
 });
 
 // dislike button
 chatlist.addEventListener("click", e => {
-  if (
-    e.target.classList.contains("thumb") &&
-    !e.target.classList.contains("blue")
-  ) {
-    e.target.classList.add("blue");
-    e.target.parentElement.classList.add("greyBorder");
-  } else {
-    e.target.classList.remove("blue");
-    e.target.parentElement.classList.remove("greyBorder");
+  if (e.target.classList.contains("thumb")) {
+    e.target.classList.toggle("blue");
+    e.target.parentElement.classList.toggle("greyBorder");
   }
 });
 
